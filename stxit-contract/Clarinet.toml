@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.community-voting]
+path = 'contracts/community-voting.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.account-closure]
 path = 'contracts/account-closure.clar'
 [contracts.user-profile]
