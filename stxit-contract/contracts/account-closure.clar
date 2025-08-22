@@ -37,7 +37,7 @@
       (current-fee (var-get fee-amount))
       (request-id (+ (var-get request-counter) u1))
       (user-principal tx-sender)
-      (current-time (- stacks-block-height u1))
+      (current-time (- block-height u1))
       (user-request-list (default-to { request-ids: (list) } (map-get? user-requests { user: user-principal })))
     )
     ;; Check if platform is valid (simplified validation)
