@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.Proof-Of-Closure]
+path = 'contracts/Proof-Of-Closure.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.account-closure]
 path = 'contracts/account-closure.clar'
 clarity_version = 1
